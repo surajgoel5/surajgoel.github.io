@@ -1,0 +1,42 @@
+<div id='div1' name='Div 1' onclick="func(this.id)" >
+	div1
+	
+	<div id='div2' name='Div 2' onclick="func(this.id)">
+		
+		div2
+		<div id='div3' name='Div 3' onclick="func(this.id)">
+			div3
+		</div> 
+	
+		
+	</div>
+	
+	
+</div>
+	
+<style>
+	#div1{
+  width: 300px;
+  padding:20px;
+  border: solid;
+}
+
+	#div2{
+  padding:20px;
+  border: solid;
+}
+	#div3{
+	
+  padding:20px;
+  border: solid;
+}
+	
+</style>
+
+
+<script>
+	function func(id){
+		alert(id);
+		}
+	
+	</script>
