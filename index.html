@@ -41,7 +41,8 @@ $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
 	
 	if (scroll<1.1*$(window).height()){
-		$("#hider1").css("width",(scroll*0.2).toString(10)+"vw");
+	var newW=$( window ).width()*scroll/$( window ).height();
+		$("#hider1").css("width",newW*1.05);
 		}
 	
 	if (scroll>$(window).height()){
