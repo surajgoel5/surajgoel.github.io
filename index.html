@@ -39,9 +39,11 @@ var p2typed=false;
 
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
+	
 	if (scroll<1.1*$(window).height()){
-		$("#hider1").css("width",scroll*4);
+		$("#hider1").css("width",(scroll*0.2).toString(10)+"vw");
 		}
+	
 	if (scroll>$(window).height()){
 		if(!p2typed){
 		p2typed=true;
