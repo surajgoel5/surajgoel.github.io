@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	type("p1text");
+	$(window).scroll();
 	})
 
 var p2typed=false;
