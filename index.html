@@ -11,11 +11,27 @@
   <title>Suraj Goel</title>
 
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
-	<div id='hider1'></div>
+	<div id='hider1' class='hider'></div>
+	<div id='hider2' class= 'hider'>
+		<div id='blue'></div>
+		<div id='green'></div>
+		<div id='yellow'></div>
+		
+		</div>
+	<div id='hider3' class= 'hider'>
+	<div id='violet'></div>
+	<div id='indigo'></div>
+		<div id='blue'></div>
+		<div id='green'></div>
+		<div id='yellow'></div>
+		<div id='orange'></div>
+		<div id='red'></div>
+		</div>
 	<section id='page1'>
 		<h1 id='p1text' lol="Hi."></h1>			
 	</section>
@@ -23,7 +39,14 @@
 		<h1 id='p2text' class="white z3" lol="I'm Suraj."></h1>
 		<img id='surajpic' src="./imgs/suraj.jpg">
 	</section>
-
+	<section>
+		<h1 id='p3text' class="white z5" lol="I'm an Experimental Physicist."></h1>
+		
+	</section>
+	<section>
+	<h1 id='p4text' class="white z7" lol="Email me?  "><i class="material-icons">cloud</i></h1>
+		
+	</section>
 </body>
 
 
@@ -31,29 +54,7 @@
 <script src="./scripts/scroller.js"></script>
 
 <script>
-$(document).ready(function(){
-	type("p1text");
-	})
 
-var p2typed=false;
-
-$(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
-	
-	if (scroll<1.1*$(window).height()){
-	var newW=$( window ).width()*scroll/$( window ).height();
-		$("#hider1").css("width",newW*1.05);
-		}
-	
-	if (scroll>$(window).height()){
-		if(!p2typed){
-		p2typed=true;
-		type("p2text");
-		}
-	}
-	
-    
-});
 </script>
 
 </html>

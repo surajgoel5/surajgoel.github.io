@@ -31,29 +31,92 @@ h1  {
   /* overflow: hidden; */
   /* border-right: 2px solid rgb(92,92,92); */
 }
+.hider{
+	position: fixed;
+	width: 0em;
 
-#hider1{
-	
-	
-position: fixed;
-	
-background-color: #2e2e2e;
-	
-width: 0em;
-	
 height: 10em;
-	
-z-index: 2;
-	
 right: 0;
 top: 50%;
-	transform: translateY(-50%);
+transform: translateY(-50%);
 }
+#hider1{
+
+background-color: #2e2e2e;
+
+z-index: 2;
+
+}
+#hider2{
+
+background-color:#a849a7;
+
+height: 27em;
+
+z-index: 4;
+}
+#hider3{
+	
+background-color:#a849a7;
+
+height: 63em;
+
+z-index: 6;
+}
+#blue{
+	
+background-color: #2196F3;
+	
+height: 9em;
+}
+#green{
+	
+background-color: #4CAF50;
+	
+height: 9em;
+}
+#yellow{
+	
+background-color:yellow;
+	
+height: 9em;
+}
+#violet{
+	
+background-color:violet;
+	
+height: 9em;
+}
+#indigo{
+	
+background-color:indigo;
+	
+height: 9em;
+}
+#orange{
+	
+background-color:orange;
+	
+height: 9em;
+}
+#red{
+
+background-color:red;
+	
+height: 9em;
+}
+
 .white{
 	color:white;
 }
 .z3{
 	z-index:3;
+}
+.z5{
+	z-index:5;
+}
+.z7{
+	z-index:7;
 }
 #surajpic{width: calc(12vh + 18vw);
 	position: absolute;
