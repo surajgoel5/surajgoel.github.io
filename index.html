@@ -11,18 +11,46 @@
   <title>beepBoopBeepBoopBeep</title>
 
   <link rel="stylesheet" href="css/styles.css">
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
+	<div id='hider1'></div>
+	<section id='page1'>
+		<h1 id='p1text' lol="Hi."></h1>			
+	</section>
 	<section>
-  <h1>Hi.</h1>
-</section>
-<section>
-    <h1>I'm Suraj</h1>
-</section>
+		<h1 id='p2text' class="white z3" lol="I'm Suraj."></h1>
+		<img id='surajpic' src="./imgs/suraj.jpg">
+	</section>
 
 </body>
 
+
+ <script src="./scripts/typer.js"></script>
+<script src="./scripts/scroller.js"></script>
+
+<script>
+$(document).ready(function(){
+	type("p1text");
+	})
+
+var p2typed=false;
+
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+	if (scroll<1.1*$(window).height()){
+		$("#hider").css("width",scroll*4);
+		}
+	if (scroll>$(window).height()){
+		if(!p2typed){
+		p2typed=true;
+		type("p2text");
+		}
+	}
+	
+    
+});
+</script>
 
 </html>
