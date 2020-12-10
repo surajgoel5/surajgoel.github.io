@@ -187,8 +187,8 @@ height: 9em;
 	position: absolute;
 	right:1vh;
 	z-index:7;
-	top: 55vh;
-	transform: translateY(-50%);
+	top: 1vh;
+	/*transform: translateY(-50%);*/
 	
 	}
 #surajpropic{width:100%;}
