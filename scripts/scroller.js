@@ -9,8 +9,8 @@ var p4typed=false;
 var lasttyped=false;
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-	
-	if (scroll<1.1*$(window).height()){
+	var H=$(window).height();
+	if (scroll<1.1*H && scroll>0.1*H){
 	var newW=$( window ).width()*scroll/$( window ).height()-0.1;
 		$("#hider1").css("width",newW*1.1);
 		$("#hider2").css("width",0);
@@ -18,7 +18,7 @@ $(window).scroll(function (event) {
 		$("#hider4").css("width",0);
 		}
 	
-	else if (scroll<2.1*$(window).height()){
+	else if (scroll<2.1*H && scroll>1.15*H){
 	var newW=$( window ).width()*(scroll-1.1*$( window ).height())/($( window ).height());
 	newW = newW < 0 ? 0 : newW;
 	
@@ -29,7 +29,7 @@ $(window).scroll(function (event) {
 		}
 		
 		
-	else if (scroll<3.1*$(window).height()){
+	else if (scroll<3.1*H && scroll>2.15*H){
 		var newW=$( window ).width()*(scroll-2.1*$( window ).height())/($( window ).height());
 	newW = newW < 0 ? 0 : newW;
 	
@@ -44,7 +44,7 @@ $(window).scroll(function (event) {
 		
 		
 		
-	else if (scroll<4.1*$(window).height()){
+	else if (scroll<4.1*H && scroll>3.15*H){
 		var newW=$( window ).width()*(scroll-3.1*$( window ).height())/($( window ).height());
 	newW = newW < 0 ? 0 : newW;
 	
