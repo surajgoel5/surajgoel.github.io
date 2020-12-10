@@ -56,24 +56,31 @@ height: 27em;
 
 z-index: 4;
 }
+#hider4{
+	
+background-color:#a849a7;
+
+height: 27em;
+
+z-index: 6;
+}
+
 #hider3{
 	
 background-color:#a849a7;
 
 height: 63em;
 
-z-index: 6;
+z-index: 10;
 }
+
+
 #blue{
-	
-background-color: #2196F3;
-	
+background-color: #2196F3;	
 height: 9em;
 }
 #green{
-	
 background-color: #4CAF50;
-	
 height: 9em;
 }
 #yellow{
@@ -107,17 +114,64 @@ background-color:red;
 height: 9em;
 }
 
+#ardu0{
+	
+background-color:#62AEB2;
+	
+height: 9em;
+}
+#ardu1{
+	
+background-color:#E47128;
+	
+height: 9em;
+}
+#ardu2{
+	
+background-color:#E5AD24;
+	
+height: 9em;
+}
+
+#phys0{
+	
+background-color:#161426;
+	
+height: 9em;
+}
+#phys1{
+	
+background-color:#2E3159;
+	
+height: 9em;
+}
+#phys2{
+	
+background-color:#4563BF;
+	
+height: 9em;
+}
+
+
+
+
 .white{
 	color:white;
 }
-.z3{
-	z-index:3;
+.z8{
+	z-index:8;
 }
-.z5{
-	z-index:5;
+.z9{
+	z-index:9;
 }
 .z7{
 	z-index:7;
+}
+.z6{
+	z-index:6;
+}
+.z99{
+	z-index:99;
 }
 #surajpic{width: calc(12vh + 18vw);
 	position: absolute;
@@ -127,6 +181,16 @@ height: 9em;
 	transform: translateY(-50%);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	 border: 0.8em solid #f4f3f3;}
+	 
+#circuit{
+	height:calc(70vh + 20vw);
+	position: absolute;
+	right:1vh;
+	z-index:7;
+	top: 55vh;
+	transform: translateY(-50%);
+	
+	}
 #surajpropic{width:100%;}
 .card{
 	background:#f4f3f3;

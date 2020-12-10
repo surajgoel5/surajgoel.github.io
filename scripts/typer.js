@@ -5,6 +5,7 @@ function type(id){
 setTimeout(function foo1(){SPY.text(id,id);},0);
 }
 
+
 var SPY = function() {
   function e(a, d, b) {
     var c, f, g, h;

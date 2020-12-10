@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="favicon.svg"
+   sodipodi:docname="logo.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg8"
    version="1.1"
-   viewBox="0 0 63.754245 24.742674"
-   height="24.742674mm"
-   width="63.754246mm">
+   viewBox="0 0 74.999992 75.000008"
+   height="75.000008mm"
+   width="74.999992mm">
   <defs
      id="defs2">
     <rect
@@ -109,9 +109,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="188.36298"
-     inkscape:cx="30.631726"
-     inkscape:zoom="1.979899"
+     inkscape:cy="223.36146"
+     inkscape:cx="-97.713515"
+     inkscape:zoom="1.4"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -131,20 +131,48 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-20.249942,-25.546546)"
+     transform="translate(-10.839293,-2.0324388)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <text
-       id="text849"
-       y="49.675304"
-       x="17.850088"
-       style="font-size:38.1px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+       id="text857"
+       y="45.836723"
+       x="40.758602"
+       style="font-size:3.52777px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.1px;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';stroke-width:0.264583"
-         y="49.675304"
-         x="17.850088"
-         id="tspan847"
-         sodipodi:role="line">lol</tspan></text>
+         style="stroke-width:0.264583"
+         y="45.836723"
+         x="40.758602"
+         id="tspan855"
+         sodipodi:role="line"></tspan></text>
+    <ellipse
+       ry="36.927265"
+       rx="36.927258"
+       cy="39.532444"
+       cx="48.339291"
+       id="path992"
+       style="fill:#162d50;fill-opacity:1;stroke:#ffffff;stroke-width:1.14548;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       transform="matrix(1.7303474,0,0,1.7303474,13.780342,-65.141306)"
+       style="font-size:79.375px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';white-space:pre;shape-inside:url(#rect843-1-9);fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       id="text841-0-9"
+       xml:space="preserve"><tspan
+         x="-0.80273438"
+         y="69.919748"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.6875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">S</tspan></tspan></text>
+    <g
+       id="g988-2"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+       transform="matrix(1.7306309,0,0,1.7306309,-14.066313,-42.081988)">
+      <text
+         transform="translate(31.733507,-3.2843636)"
+         style="font-size:79.375px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';white-space:pre;shape-inside:url(#rect843-8);fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+         id="text841-6"
+         xml:space="preserve"><tspan
+           x="-0.80273438"
+           y="69.919748"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.6875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">G</tspan></tspan></text>
+    </g>
   </g>
 </svg>
