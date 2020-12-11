@@ -12,7 +12,9 @@ var lasttyped = false;
 
 const hider_id=['#hider1','#hider2','#hider4','#hider3'];
 const totalpages=5;
-
+var H = window.innerHeight;
+var W = window.innerWidth;
+	
 
 function getPageNo(scroll){
 	var pos=scroll/H
