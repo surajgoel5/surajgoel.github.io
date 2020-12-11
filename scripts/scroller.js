@@ -8,8 +8,7 @@ var p4typed = false;
 var lasttyped = false;
 
 
-var H = window.innerHeight;
-var W = window.innerWidth;
+
 
 const hider_id=['#hider1','#hider2','#hider4','#hider3'];
 const totalpages=5;
@@ -24,6 +23,9 @@ function getPageNo(scroll){
 }
 
 function controlHiders(scroll){
+	
+	var H = window.innerHeight;
+	var W = window.innerWidth;
 	var [pno,pos] = getPageNo(scroll);
 	console.log(pno,pos);
 	
@@ -40,10 +42,32 @@ function controlHiders(scroll){
 
 $(window).scroll(function(event) {
   var scroll = $(window).scrollTop();
-
-
-controlHiders(scroll);
-
+  controlHiders(scroll);
+  
+ /* 
+  if (scroll < 0.9 * H) {
+    var newW = W * scroll / H;
+    setHiderWidths(newW * 1.5, 0, 0, 0)
+  } 
+  
+  else if (scroll < 1.9 * H ) {
+    var newW = W * (scroll - 1.1 * H) / H;
+    newW = newW < 0 ? 0 : newW;
+    setHiderWidths(W * 1.3, newW * 1.3, 0, 0)
+  }
+  
+  else if (scroll < 2.9 * H ) {
+    var newW = W * (scroll - 2.1 * H) / H;
+    newW = newW < 0 ? 0 : newW;
+    setHiderWidths(W * 1.3, W * 1.3, newW * 1.3, 0)
+  }
+  
+  else { //if (scroll < 3.9 * H ) {
+    var newW = W * (scroll - 3.1 * H) / H;
+    newW = newW < 0 ? 0 : newW;
+    setHiderWidths(W * 1.3, W * 1.3, W * 1.3, newW * 1.3)
+  }
+ */
   if (scroll > H) {
     if (!p2typed) {
       p2typed = true;
