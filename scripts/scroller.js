@@ -1,17 +1,16 @@
+
+//Change these when editing structure i.e adding pages
+const totalpages=5;
+const hider_id=['#hider1','#hider2','#hider3','#hider4'];
+var texts=[["p1text",true],["p2text",false],["p3text",false],["p4text",false],["lasttext",false]];
+
+
+
 $(document).ready(function() {
-  type("p1text");
+  type(texts[0][0]);
   $(window).scroll();
 })
-var p2typed = false;
-var p3typed = false;
-var p4typed = false;
-var lasttyped = false;
 
-
-
-
-const hider_id=['#hider1','#hider2','#hider4','#hider3'];
-const totalpages=5;
 var H = window.innerHeight;
 var W = window.innerWidth;
 	
@@ -42,56 +41,23 @@ function controlHiders(scroll){
 	
 }
 
+function typeOnPage(scroll){
+	var [pno,pos] = getPageNo(scroll);
+	for (var i = 0; i < pno; i++){
+	
+	if (!texts[i][1]){
+		texts[i][1]=true;
+		type(texts[i][0]);
+	}
+	}
+	
+}
+
+
 $(window).scroll(function(event) {
+	
   var scroll = $(window).scrollTop();
-  controlHiders(scroll);
-  
- /* 
-  if (scroll < 0.9 * H) {
-    var newW = W * scroll / H;
-    setHiderWidths(newW * 1.5, 0, 0, 0)
-  } 
-  
-  else if (scroll < 1.9 * H ) {
-    var newW = W * (scroll - 1.1 * H) / H;
-    newW = newW < 0 ? 0 : newW;
-    setHiderWidths(W * 1.3, newW * 1.3, 0, 0)
-  }
-  
-  else if (scroll < 2.9 * H ) {
-    var newW = W * (scroll - 2.1 * H) / H;
-    newW = newW < 0 ? 0 : newW;
-    setHiderWidths(W * 1.3, W * 1.3, newW * 1.3, 0)
-  }
-  
-  else { //if (scroll < 3.9 * H ) {
-    var newW = W * (scroll - 3.1 * H) / H;
-    newW = newW < 0 ? 0 : newW;
-    setHiderWidths(W * 1.3, W * 1.3, W * 1.3, newW * 1.3)
-  }
- */
-  if (scroll > H) {
-    if (!p2typed) {
-      p2typed = true;
-      type("p2text");
-    }
-  }
-  if (scroll > 2 * H) {
-    if (!p3typed) {
-      p3typed = true;
-      type("p3text");
-    }
-  }
-  if (scroll > 3 * H) {
-    if (!p4typed) {
-      p4typed = true;
-      type("p4text");
-    }
-  }
-  if (scroll > 4 * H) {
-    if (!lasttyped) {
-      lasttyped = true;
-      type("lasttext");
-    }
-  }
+ controlHiders(scroll);
+typeOnPage(scroll);
+
 });
