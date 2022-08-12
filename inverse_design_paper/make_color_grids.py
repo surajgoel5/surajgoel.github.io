@@ -2,7 +2,7 @@ import numpy as np
 import cmcrameri.cm as cmc
 import matplotlib.colors as colors
 
-num_reps=600
+num_reps=1500
 ntimes=10
 rand_times=[np.round(np.random.rand(),2) for i in range(ntimes)]
 
