@@ -1,14 +1,14 @@
 .myGallery {
     width:100vw;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(8vw, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(4vw, 1fr));
 
   }
   
 
   .background{
-    filter: brightness(0.5);
-      z-index: -1;
+    filter: brightness(0.99);
+    z-index: -1;
     top: 0;
     left:0;
     position: fixed;
@@ -16,29 +16,23 @@
   }
 
   .fadegroup{
+	  padding: 0.1em;
     display: grid;
  
 
 }  
 
-.fadegroup img{
+.fadegroup div{
     grid-area: 1 / 1 / 2 / 2;
     width: 100%;
     /* margin:0.05em; */
-    animation-name: fade;
-    animation-timing-function: ease-in-out;
+  /*  animation-name: fade;*/
+    
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 3s;
     animation-direction: alternate;
+	  height:  2vw;
+  border: 1vw white;
 }
 
 
-@keyframes fade {
-	0% {opacity: 1;}
-	20% {opacity: 0;}
-	40% {opacity: 0;}
-	60% {opacity: 0;}
-	80% {opacity: 1;}
-	100% {opacity: 1;}
-
-}

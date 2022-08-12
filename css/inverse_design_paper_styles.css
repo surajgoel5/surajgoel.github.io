@@ -1,0 +1,80 @@
+.myGallery {
+    width:100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 4vw, 1fr));
+
+  }
+  
+
+  .background{
+    filter: brightness(0.8);
+    z-index: -1;
+    top: 0;
+    left:0;
+    position: fixed;
+  } 
+  
+  .dark_filter{
+    /* filter: brightness(0.6); */
+  }
+
+  .fadegroup{
+	  padding: 0.1vw;
+	  display: grid;
+	  background: #ffffff;
+}  
+
+.fadegroup div{
+    /* margin: 0.1vw; */
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+    /* margin:0.05em; */
+    /*  animation-name: fade;*/
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    height:  2vw;
+    /* border: 1vw black; */
+}
+
+
+.paper-title{
+	background-color: #000000d4;
+	color: white;
+	text-align: center;
+	padding: 2vh 2vw;
+	top: 30%;
+	position: absolute;
+	transform: translateY(-100%);
+	width: 100%;
+	left: 0;
+	font-size: calc(1rem + 3vw);
+}
+
+.paper-authors{
+	color: white;
+	text-align: center;
+	/* margin: 0 2vw; */
+	padding: 1vh 2vw;
+	top: 50%;
+	position: absolute;
+	transform: translateY(-100%);
+	width: 100%;
+	left: 0;
+	font-size: calc(1rem + 1.5vw);
+	background-color: #000000d4;
+}
+
+.footnote{
+	color: white;
+	text-align: right;
+	/* margin: 0 2vw; */
+	padding: 1vh 2vw;
+	bottom: 0;
+	position: absolute;
+	transform: translateY(-100%);
+	width: 100%;
+	left: 0;
+	font-size: calc(0.7rem + 0.8vw);
+	background-color: #000000d4;
+}

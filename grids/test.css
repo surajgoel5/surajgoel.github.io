@@ -1,0 +1,80 @@
+@keyframes fade0{ 
+0%{background-color: #9c5d2b} 
+20%{background-color: #723959} 
+40%{background-color: #733957} 
+60%{background-color: #4e7cb2} 
+80%{background-color: #9bd4cd} 
+100%{background-color: #d3c876} 
+}
+@keyframes fade1{ 
+0%{background-color: #733957} 
+20%{background-color: #9bd4cd} 
+40%{background-color: #d3c876} 
+60%{background-color: #4e7cb2} 
+80%{background-color: #723959} 
+100%{background-color: #9c5d2b} 
+}
+@keyframes fade2{ 
+0%{background-color: #9c5d2b} 
+20%{background-color: #9bd4cd} 
+40%{background-color: #723959} 
+60%{background-color: #d3c876} 
+80%{background-color: #4e7cb2} 
+100%{background-color: #733957} 
+}
+@keyframes fade3{ 
+0%{background-color: #723959} 
+20%{background-color: #9bd4cd} 
+40%{background-color: #9c5d2b} 
+60%{background-color: #4e7cb2} 
+80%{background-color: #d3c876} 
+100%{background-color: #733957} 
+}
+@keyframes fade4{ 
+0%{background-color: #9c5d2b} 
+20%{background-color: #4e7cb2} 
+40%{background-color: #733957} 
+60%{background-color: #d3c876} 
+80%{background-color: #723959} 
+100%{background-color: #9bd4cd} 
+}
+@keyframes fade5{ 
+0%{background-color: #733957} 
+20%{background-color: #4e7cb2} 
+40%{background-color: #723959} 
+60%{background-color: #9c5d2b} 
+80%{background-color: #9bd4cd} 
+100%{background-color: #d3c876} 
+}
+@keyframes fade6{ 
+0%{background-color: #9bd4cd} 
+20%{background-color: #d3c876} 
+40%{background-color: #4e7cb2} 
+60%{background-color: #733957} 
+80%{background-color: #723959} 
+100%{background-color: #9c5d2b} 
+}
+@keyframes fade7{ 
+0%{background-color: #723959} 
+20%{background-color: #9bd4cd} 
+40%{background-color: #4e7cb2} 
+60%{background-color: #d3c876} 
+80%{background-color: #9c5d2b} 
+100%{background-color: #733957} 
+}
+@keyframes fade8{ 
+0%{background-color: #d3c876} 
+20%{background-color: #9c5d2b} 
+40%{background-color: #9bd4cd} 
+60%{background-color: #733957} 
+80%{background-color: #723959} 
+100%{background-color: #4e7cb2} 
+}
+@keyframes fade9{ 
+0%{background-color: #9c5d2b} 
+20%{background-color: #733957} 
+40%{background-color: #9bd4cd} 
+60%{background-color: #d3c876} 
+80%{background-color: #4e7cb2} 
+100%{background-color: #723959} 
+}
